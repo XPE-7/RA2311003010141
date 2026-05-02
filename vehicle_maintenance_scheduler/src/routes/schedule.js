@@ -1,7 +1,7 @@
 const express = require("express");
 const { fetchDepots, fetchVehicles } = require("../services/evaluationApi");
 const { computeSchedule } = require("../services/scheduler");
-const { Log } = require("../../logging_middleware");
+const { Log } = require("../../../logging_middleware");
 
 const router = express.Router();
 

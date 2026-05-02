@@ -1,5 +1,5 @@
 const express = require("express");
-const { Log } = require("../logging_middleware");
+const { Log } = require("../../logging_middleware");
 const { config } = require("./config");
 const priorityRoutes = require("./routes/priority");
 

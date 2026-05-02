@@ -1,7 +1,7 @@
 const express = require("express");
 const { fetchNotifications } = require("../services/notificationApi");
 const { pickTopNotifications } = require("../services/priority");
-const { Log } = require("../../logging_middleware");
+const { Log } = require("../../../logging_middleware");
 
 const router = express.Router();
 

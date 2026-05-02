@@ -1,5 +1,5 @@
 const { config } = require("../config");
-const { Log } = require("../../logging_middleware");
+const { Log } = require("../../../logging_middleware");
 
 async function fetchNotifications() {
   await Log("backend", "info", "service", "fetching notifications from evaluation api");

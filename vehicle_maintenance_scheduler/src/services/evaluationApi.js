@@ -1,5 +1,5 @@
 const { config } = require("../config");
-const { Log } = require("../../logging_middleware");
+const { Log } = require("../../../logging_middleware");
 
 async function callApi(path) {
   const url = `${config.evaluationBaseUrl}${path}`;
